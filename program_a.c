@@ -12,6 +12,9 @@ volatile sig_atomic_t keep_running = 1;
 
 void handle_sigint(int sig) {
     play_audio("meow.mp3");
+    printf("\n \n Don't Hurt ME !! \n \n");
+    
+
     signal(SIGINT, handle_sigint);  // re-register handler for Windows/MSYS2
 }
 
@@ -33,6 +36,7 @@ int main(int argc, char *argv[]) {
     if (init_mixer() != 0) return 1;
 
     signal(SIGINT, handle_sigint);
+
 
     pthread_t tid;
     pthread_create(&tid, NULL, input_listener, NULL);
