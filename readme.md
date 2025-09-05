@@ -131,7 +131,7 @@ It is adapted from the following repository:
 
 > **Original Repository Template:**
 >
-> * Repo: [original-repo-name](https://github.com/jdvillal/program_a)
+> * Repo: [program_a](https://github.com/jdvillal/program_a)
 > * Author: [Jorge Villalta](https://github.com/jdvillal)
 > * Youtube Video : [Explanation About Signals ](https://www.youtube.com/watch?v=m6WXrC9Mxzo)
 
